@@ -4,6 +4,9 @@
  * Keywords: 栈，队列，深度优先搜索
  *
  * 由于本算法中嵌套了递归，所以产生了大量全局变量，复用性、可维护性和可读性较差。
+ *
+ * changelog
+ * 2017-3-8: 采取计算完毕一组数据后立即输出的方法，同时避免使用String.format()，提高效率
  */
 
 import java.util.*;
@@ -22,8 +25,6 @@ public class Main {
 
     private static Deque<Boolean> trainTrace = new ArrayDeque<>(); // true: train in; false: train out
 
-    private static StringBuilder outputBuffer = new StringBuilder();
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
@@ -35,13 +36,13 @@ public class Main {
             }
             dfs();
             if (!hasFoundExpectedResult) {
-                outputBuffer.append("No.\n\rFINISH\n\r");
+                System.out.println("No.");
+                System.out.println("FINISH");
             }
             // clear
             entrance.clear();
             hasFoundExpectedResult = false;
         }
-        System.out.print(outputBuffer.toString());
     }
 
     private static void dfs() {
@@ -85,15 +86,15 @@ public class Main {
         }
         if (isMatched) {
             hasFoundExpectedResult = true;
-            outputBuffer.append("Yes.\n\r");
+            System.out.println("Yes.");
             for (boolean aTrace : trainTrace) {
                 if (aTrace) {
-                    outputBuffer.append("in\n\r");
+                    System.out.println("in");
                 } else {
-                    outputBuffer.append("out\n\r");
+                    System.out.println("out");
                 }
             }
-            outputBuffer.append("FINISH\n\r");
+            System.out.println("FINISH");
         }
     }
 }
