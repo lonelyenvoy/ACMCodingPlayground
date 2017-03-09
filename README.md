@@ -24,4 +24,4 @@ http://codeforces.com/
 * 蓝桥杯
 http://lx.lanqiao.cn/
 
-##### 提示：如果以上OJ的官网挂了，可以访问VJ（https://cn.vjudge.net/）查找原题
+###### 提示：如果以上OJ的官网挂了，可以访问VJ（ https://cn.vjudge.net/ ）查找原题
