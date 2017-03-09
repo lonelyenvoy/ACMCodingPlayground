@@ -7,21 +7,21 @@ ACMCodingPlayground
 ######主要语言: C/C++/Java
 
 * 浙江大学（ZJU）
-http://acm.zju.edu.cn/
+<a href="http://acm.zju.edu.cn/" target="_blank">acm.zju.edu.cn</a>
 
 * 北京大学（PKU）
-http://acm.pku.edu.cn/JudgeOnline/
+<a href="http://acm.pku.edu.cn/JudgeOnline/" target="_blank">acm.pku.edu.cn/JudgeOnline</a>
 
 * 杭州电子科技大学（HDU）
-http://acm.hdu.edu.cn/
+<a href="http://acm.hdu.edu.cn/" target="_blank">acm.hdu.edu.cn</a>
 
 * 美国弗吉尼亚大学（UVA）
-http://uva.onlinejudge.org/
+<a href="http://uva.onlinejudge.org/" target="_blank">uva.onlinejudge.org</a>
 
 * Codeforces
-http://codeforces.com/
+<a href="http://codeforces.com/" target="_blank">codeforces.com</a>
 
 * 蓝桥杯
-http://lx.lanqiao.cn/
+<a href="http://lx.lanqiao.cn/" target="_blank">lx.lanqiao.cn</a>
 
 ###### 提示：如果以上OJ的官网挂了，可以访问VJ（ https://cn.vjudge.net/ ）查找原题
