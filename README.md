@@ -24,4 +24,4 @@ ACMCodingPlayground
 * 蓝桥杯
 <a href="http://lx.lanqiao.cn/" target="_blank">lx.lanqiao.cn</a>
 
-###### 提示：如果以上OJ的官网挂了，可以访问VJ（ https://cn.vjudge.net/ ）查找原题
+###### 提示：如果以上OJ的官网挂了，可以访问VJ（<a href="https://cn.vjudge.net/" target="_blank">cn.vjudge.net</a>）查找原题
