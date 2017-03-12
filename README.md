@@ -21,6 +21,9 @@ ACMCodingPlayground
 * Codeforces
 <a href="http://codeforces.com/" target="_blank">codeforces.com</a>
 
+* Programming Ability Test（PAT）
+<a href="https://www.patest.cn/contests" target="_blank">patest.cn/contests</a>
+
 * 蓝桥杯
 <a href="http://lx.lanqiao.cn/" target="_blank">lx.lanqiao.cn</a>
 
