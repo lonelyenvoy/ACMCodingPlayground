@@ -3,6 +3,7 @@
  * Exchange Cards
  * Keywords: dfs
  * Limits: 需剪枝或用哈希法提高效率（如代码所示）
+ * See also: ZOJ 1204
  */
 
 #include <cstdio>
