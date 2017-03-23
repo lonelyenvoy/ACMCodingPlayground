@@ -1,7 +1,7 @@
 /**
  * Created by LonelyEnvoy on 2017-3-24.
  * Fire Net
- * Keywords: dfs/bfs，迷宫
+ * Keywords: dfs/bfs，迷宫（暴力搜索）
  */
 
 #include <cstdio>
