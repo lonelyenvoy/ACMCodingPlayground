@@ -24,7 +24,6 @@
 #include <limits>
 using namespace std;
 
-#pragma comment(linker, "/STACK:102400000,102400000")
 #define rep(i, a, n) for(int i = a; i < n; i++)
 #define per(i, a, n) for(int i = n - 1; i >= a; i--)
 #define pb push_back
