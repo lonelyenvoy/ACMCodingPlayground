@@ -1,7 +1,7 @@
 /**
  * Created by LonelyEnvoy on 2017-4-3.
  * Jin Ge Jin Qu hao
- * Keywords: 多状态dp
+ * Keywords: 多因素dp（用结构体构造dp数组）
  */
 
 #include <cstdio>
