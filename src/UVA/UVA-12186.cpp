@@ -51,17 +51,16 @@ int minWorker(int u) {
         return 1;
     }
 
-    int* workers = new int[size]; // 为了避免空间过大，此处用了动态分配，应该还可以优化
+    vector<int> workers; // 如需要创建不确定大小的数组，应使用vector代替，提高效率，减少代码量
     rep(i, 0, size) {
-        workers[i] = minWorker(childs[u][i]);
+        workers.push_back(minWorker(childs[u][i]));
     }
-    sort(workers, workers + size);
+    sort(workers.begin(), workers.end());
     int needed = ceil((double)size * t / 100);
     int sum = 0;
     rep(i, 0, needed) {
         sum += workers[i];
     }
-    delete[] workers;
     return sum;
 }
 
