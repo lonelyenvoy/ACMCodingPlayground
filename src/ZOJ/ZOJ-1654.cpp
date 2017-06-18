@@ -1,6 +1,12 @@
+/**
+ * Created by LonelyEnvoy on 2017-6-18.
+ * Place the Robots
+ * Keywords: 二分匹配
+ */
+
 #include <iostream>  
 #include <cstring>  
-#include <stdio.h>  
+#include <cstdio>  
 using namespace std;  
 
 #define rep(i,a,n) for (int i = a; i < n; ++i)
