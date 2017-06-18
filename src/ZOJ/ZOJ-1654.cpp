@@ -4,6 +4,8 @@
  * Keywords: 二分匹配
  */
 
+// 参考资料：http://blog.csdn.net/acdreamers/article/details/8654005
+
 #include <iostream>  
 #include <cstring>  
 #include <cstdio>  
