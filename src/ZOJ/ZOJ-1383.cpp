@@ -1,3 +1,9 @@
+/**
+ * Created by LonelyEnvoy on 2017-6-18.
+ * Binary Numbers
+ * Keywords: 位运算，水题
+ */
+
 #include <cstdio>
 #include <cstring>
 #include <queue>
