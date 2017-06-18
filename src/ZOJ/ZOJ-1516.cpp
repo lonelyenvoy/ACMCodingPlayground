@@ -4,6 +4,8 @@
  * Keywords: 二分匹配
  */
 
+// 参考资料：http://blog.csdn.net/auto_ac/article/details/11179339
+
 #include <cstdio>  
 #include <cstring>  
 #include <algorithm>  
