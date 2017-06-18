@@ -4,6 +4,8 @@
  * Keywords: dp，线段树
  */
 
+// 参考资料：http://blog.csdn.net/mdd18703649811/article/details/54381003
+
 #include <cstdio>  
 #include <cstring>  
 #include <algorithm>  
