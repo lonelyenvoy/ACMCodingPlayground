@@ -1,3 +1,9 @@
+/**
+ * Created by LonelyEnvoy on 2017-7-12.
+ * A. Theatre Square
+ * Keywords: simple math
+ */
+
 #include <cstdio>
 #include <cmath>
 using namespace std;
