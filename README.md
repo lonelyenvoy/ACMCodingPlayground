@@ -30,7 +30,7 @@ ACMCodingPlayground
 
 ## Contributing
 
-Any improvement to existing solutions or any new solutions are welcome. 
+Any improvement to existing solutions or new solutions are welcome. 
 Create a <a href="https://github.com/lonelyenvoy/ACMCodingPlayground/pulls" target="_blank">pull request</a> when you are done.
 
 ## Support
