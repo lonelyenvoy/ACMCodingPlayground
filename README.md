@@ -26,4 +26,4 @@ ACMCodingPlayground
 * Lanqiao (蓝桥杯)
 <a href="http://lx.lanqiao.cn/" target="_blank">lx.lanqiao.cn</a>
 
-###### Tips: If you are unable to access these OJs due to server errors, use Virtual Judge (<a href="https://cn.vjudge.net/" target="_blank">cn.vjudge.net</a>) instead to search for a certain problem.
+###### Tips: If you are unable to access these OJs due to server errors, use Virtual Judge (<a href="https://vjudge.net/" target="_blank">vjudge.net</a>) instead to search for a certain problem.
