@@ -1,6 +1,6 @@
 /**
  * Created by LonelyEnvoy on 2017-10-3.
- * A. Between the Offices
+ * A. Between the Offices 
  * Keywords: simple strings
  */
 
