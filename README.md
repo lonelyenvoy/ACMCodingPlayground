@@ -1,6 +1,6 @@
 ACMCodingPlayground
 ====
-![ACM](http://acm.fzu.edu.cn/ouracm/upload/53c18599b3c86.png)
+![ACM](https://github.com/lonelyenvoy/ACMCodingPlayground/raw/master/res/logo.jpg)
 
 
 ### This repository stores solutions to problems on the following Online Judges
