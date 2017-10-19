@@ -4,6 +4,10 @@
  * Keywords: math
  */
 
+// Given two positive integer a and b
+// if a % m == b % m (m is a positive integer)
+// then (a - b) % m = 0  =>  m is a multiple of (a-b)
+
 #include <cstdio>
 #include <cstring>
 #include <algorithm>
