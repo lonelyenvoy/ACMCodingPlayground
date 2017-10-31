@@ -1,6 +1,6 @@
 /**
  * Created by LonelyEnvoy on 2017-10-31.
- * A. Ayra and Bran
+ * A. Arya and Bran
  * Keywords: implementation
  */
 
@@ -23,7 +23,7 @@ int main() {
         if (k <= 0) break;
         scanf("%d", &candy);
         total += candy;
-        tmp = min(8, candy);
+        tmp = min(8, total);
         total -= tmp;
         k -= tmp;
     }
