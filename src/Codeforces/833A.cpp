@@ -1,3 +1,9 @@
+/**
+ * Created by LonelyEnvoy on 2017-11-8.
+ * A. The Meaningless Game
+ * Keywords: math, number theory
+ */
+
 #include <cstdio>
 #include <cstring>
 #include <cmath>
@@ -14,6 +20,7 @@ typedef long long ll;
 int n;
 ll a, b;
 double r;
+ll lr;
 
 //inline int round(double x) {
 //    return x > 0.0 ? floor(x + 0.5) : ceil(x - 0.5);
@@ -24,7 +31,8 @@ int main() {
     while (n--) {
         scanf("%I64d%I64d", &a, &b);
         r = pow(a*b, 1.0/3);
-        puts(abs(r - round(r)) < eps ? "YES" : "NO");
+        lr = round(r);
+        puts(abs(r - lr) < eps && a%lr == 0 && b%lr == 0 ? "YES" : "NO");
     }
 }
 
