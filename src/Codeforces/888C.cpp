@@ -1,3 +1,9 @@
+/**
+ * Created by LonelyEnvoy on 2017-11-16.
+ * C. K-Dominant Character
+ * Keywords: implementation
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -23,13 +29,10 @@ int main() {
         pos[c] = i;
     }
 
-    rep(i,'a','z') if (dis[i]) dis[i] = max(dis[i], len-pos[i]);
-
-    //rep(i,'a','z') printf("%d ", dis[i]);
-    //puts("");
+    erep(i,'a','z') if (dis[i]) dis[i] = max(dis[i], len-pos[i]);
 
     int heap = INF;
-    rep(i,'a','z') {
+    erep(i,'a','z') {
         if (dis[i]) heap = min(heap, dis[i]);
     }
     if (heap == INF) return puts("1"), 0;
